@@ -1,5 +1,5 @@
 body {
-    background-image: url(Images/img\ 1.png);
+    background-image: url(img\ 1.png);
     margin: 0;
     color: white;
     min-height: 100vh;
@@ -10,7 +10,7 @@ body {
   }
   
   .container {
-    background-image: url(Images/img\ 2.png);
+    background-image: url(img\ 2.png);
     padding: 3rem;
     border-radius: 50px 0px 50px 0px;
     border: 10px solid rgb(39, 45, 46);
