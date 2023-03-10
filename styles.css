@@ -1,0 +1,84 @@
+body {
+    background-image: url(Images/img\ 1.png);
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .container {
+    background-image: url(Images/img\ 2.png);
+    padding: 3rem;
+    border-radius: 50px 0px 50px 0px;
+    border: 10px solid rgb(39, 45, 46);
+    box-shadow:  20px 20px 60px #060606,
+             -20px -20px 60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2.5rem;
+    column-gap: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .character-amount-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number-input {
+    width: 2rem;
+  }
+  
+  .password-display {
+    background-color: rgb(228, 225, 225);
+    color: black;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 1px solid #0c0c0c;
+    height: 2rem;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+  }
+  
+  .btn {
+   grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover {
+    background-color: #4c6d75;
+    box-shadow: 5px 5px 20px #4c6d75,
+    -5px -5px 20px #4c6d75;
+  }
